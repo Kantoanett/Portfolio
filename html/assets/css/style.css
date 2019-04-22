@@ -285,7 +285,7 @@ color: transparent;
     position: relative;
     width: 24rem;
     height: 24rem;
- }
+  }
   
   .image {
     opacity: 1;
@@ -308,7 +308,7 @@ color: transparent;
   }
   
   .item-info{
-    margin-top: 250px;  
+    margin: 50px auto;
   }
   .portfolio-item:hover .img-fluid {
     opacity: 0.3;
@@ -324,8 +324,13 @@ color: transparent;
     opacity: 1;
   }
 
+  .portfolio-item .overlay{
+    align-items: center;  
+  }
+
   .overlay {
     position: absolute;
+    margin-bottom: 50px auto;
     top: 0;
     bottom: 0;
     left: 0;
@@ -335,11 +340,11 @@ color: transparent;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(26, 26, 26, 0.6);
-  }
+   }
   
   .heading-3 {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     max-width: bold;
     width: 100%;
     line-height: 18px;
@@ -356,7 +361,7 @@ color: transparent;
 
   .p-text {
     color: #fff;
-    font-size: 13px;
+    font-size: 14.5px;
     max-width: 210px;
     width: 100%;
     line-height: 18px;
@@ -374,7 +379,7 @@ color: transparent;
 
  .link-text {
     color: #16263B;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     width: 100%;
     line-height: 18px;
@@ -417,6 +422,7 @@ color: transparent;
  .contents:hover .tools {
     opacity: 1;
   }
+
 
 /*   .text {
     background-color: #D4A085;
